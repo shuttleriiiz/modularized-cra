@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import { HelloWorld } from "@packages/Hello"
+// import { HelloWorld } from "@packages/Hello/HelloWorld" // failed
+// import { HelloWorld } from "../src/packages/Hello" // failed
+// import { HelloWorld } from "./packages/Hello" // failed
 
 function App() {
   return (
